@@ -10,28 +10,28 @@
 class Fernsicht < Formula
   desc "Watch any command's progress from anywhere — peer-to-peer via WebRTC"
   homepage "https://github.com/MuteJester/Fernsicht"
-  version "0.1.1"
+  version "0.1.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.1/fernsicht-darwin-arm64"
-      sha256 "1115b4fc7ca8079abb031e39f4cb3e6b89394fe579b2908215cd46b99847a00a"
+      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.2/fernsicht-darwin-arm64"
+      sha256 "1032a6fa4469828601f89cf04891e8cc89b1bfabc15e130f04fb77ba85851f31"
     end
     on_intel do
-      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.1/fernsicht-darwin-amd64"
-      sha256 "b76ef3ce97858b1b56097004996b84bbbccb78f2f62a87f4fa80fa0270841894"
+      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.2/fernsicht-darwin-amd64"
+      sha256 "a4bf759b935cbc1e4e04f8b997c3ccf6495f37ae2f712c0adc210a4e23aefe65"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.1/fernsicht-linux-arm64"
-      sha256 "2bef34625937312dbf5e038ff3526fded08a66f558e3aa8b52bf97de1c2b658e"
+      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.2/fernsicht-linux-arm64"
+      sha256 "ffcb2182c5b3c9b4e794eaada769543c456ddc97e8d6d015718f272418bd4dd7"
     end
     on_intel do
-      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.1/fernsicht-linux-amd64"
-      sha256 "364b93f03197f26776334335a9dc0ba3cdccdf4e31545def2c50672c5a767bdb"
+      url "https://github.com/MuteJester/Fernsicht/releases/download/cli/v0.1.2/fernsicht-linux-amd64"
+      sha256 "8a15f0c4d6dde3e4ca46901e610c35a47bcae873dda615e81353555314a794ff"
     end
   end
 
